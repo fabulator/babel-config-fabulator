@@ -37,16 +37,10 @@ module.exports = {
                     },
                 ],
             ],
-            plugins: [
-                'babel-plugin-transform-dynamic-import',
-            ],
+            plugins: ['babel-plugin-transform-dynamic-import'],
         },
         development: {
-            plugins: [
-                'react-hot-loader/babel',
-                'babel-plugin-typescript-to-proptypes',
-                '@babel/plugin-syntax-dynamic-import',
-            ],
+            plugins: ['react-hot-loader/babel', 'babel-plugin-typescript-to-proptypes', '@babel/plugin-syntax-dynamic-import'],
         },
         production: {
             presets: [
@@ -78,9 +72,7 @@ module.exports = {
                     },
                 ],
             ],
-            plugins: [
-                '@babel/plugin-syntax-dynamic-import',
-            ],
+            plugins: ['@babel/plugin-syntax-dynamic-import'],
         },
     },
 };

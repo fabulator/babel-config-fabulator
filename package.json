@@ -2,31 +2,26 @@
   "name": "babel-config-fabulator",
   "version": "1.0.0",
   "description": "Fabulator default babel config",
-  "main": "./src/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/fabulator/babel-config-fabulator.git"
-  },
-  "bugs": {
-    "url": "https://github.com/fabulator/babel-config-fabulator/issues"
-  },
-  "homepage": "https://github.com/fabulator/babel-config-fabulator",
-  "author": "Michal Ozogán <michal@ozogan.eu>",
-  "license": "Apache-2.0",
   "keywords": [
     "babel",
     "babel-config",
     "babelconfig"
   ],
+  "homepage": "https://github.com/fabulator/babel-config-fabulator",
+  "bugs": {
+    "url": "https://github.com/fabulator/babel-config-fabulator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabulator/babel-config-fabulator.git"
+  },
+  "license": "Apache-2.0",
+  "author": "Michal Ozogán <michal@ozogan.eu>",
+  "main": "./src/index.js",
   "scripts": {
     "lint": "eslint ./ --ext .js --ext .json",
     "lint:fix": "npm run lint -- --fix",
     "release": "semantic-release"
-  },
-  "devDependencies": {
-    "eslint-config-fabulator": "^1.0.0",
-    "commitlint-config-fabulator": "^1.0.0",
-    "semantic-release-config-fabulator": "^2.5.0"
   },
   "dependencies": {
     "@babel/core": "^7.10.5",
@@ -44,5 +39,10 @@
     "babel-preset-minify": "^0.5.1",
     "core-js": "^3.6.5",
     "react-hot-loader": "^4.12.21"
+  },
+  "devDependencies": {
+    "commitlint-config-fabulator": "^1.0.0",
+    "eslint-config-fabulator": "^1.0.0",
+    "semantic-release-config-fabulator": "^2.5.0"
   }
 }
