@@ -1,6 +1,6 @@
 module.exports = {
     presets: [
-        '@babel/preset-react',
+        ['@babel/preset-react', { runtime: 'automatic' }],
         '@babel/preset-typescript',
         [
             '@babel/preset-env',
@@ -15,7 +15,7 @@ module.exports = {
     plugins: [
         '@babel/plugin-transform-runtime',
         '@babel/plugin-proposal-object-rest-spread',
-        '@babel/plugin-proposal-class-properties',
+        ['@babel/plugin-proposal-class-properties', { loose: true }],
         'babel-plugin-transform-react-class-to-function',
         [
             '@babel/plugin-proposal-decorators',

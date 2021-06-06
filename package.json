@@ -24,25 +24,25 @@
     "release": "semantic-release"
   },
   "dependencies": {
-    "@babel/core": "^7.10.5",
-    "@babel/plugin-proposal-class-properties": "^7.10.4",
-    "@babel/plugin-proposal-decorators": "^7.10.5",
-    "@babel/plugin-proposal-object-rest-spread": "^7.10.4",
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-decorators": "^7.14.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.14.4",
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
-    "@babel/plugin-transform-runtime": "^7.10.5",
-    "@babel/preset-env": "^7.10.4",
-    "@babel/preset-react": "^7.10.4",
-    "@babel/preset-typescript": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/preset-typescript": "^7.13.0",
     "babel-plugin-transform-dynamic-import": "^2.1.0",
     "babel-plugin-transform-react-class-to-function": "^1.2.2",
-    "babel-plugin-typescript-to-proptypes": "^1.4.0",
+    "babel-plugin-typescript-to-proptypes": "^1.4.2",
     "babel-preset-minify": "^0.5.1",
-    "core-js": "^3.6.5",
-    "react-hot-loader": "^4.12.21"
+    "core-js": "^3.14.0",
+    "react-hot-loader": "^4.13.0"
   },
   "devDependencies": {
-    "commitlint-config-fabulator": "^1.0.0",
-    "eslint-config-fabulator": "^1.0.0",
-    "semantic-release-config-fabulator": "^2.5.0"
+    "commitlint-config-fabulator": "^1.1.0",
+    "eslint-config-fabulator": "^1.1.1",
+    "semantic-release-config-fabulator": "^2.6.1"
   }
 }
