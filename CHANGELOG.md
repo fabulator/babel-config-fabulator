@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.1.0 (2021-06-06)
+### Changed
+- [3649f31](https://github.com/fabulator/babel-config-fabulator/commit/3649f3168b91b1f62a48fe62e259cf201065294e) Use newer react syntax
+
 ## v1.0.0 (2020-07-18)
 ### Fixed
 - [8d9f7b8](https://github.com/fabulator/babel-config-fabulator/commit/8d9f7b86340b44f4bd2c9d7166d2a9aaa7a84420) lock file
