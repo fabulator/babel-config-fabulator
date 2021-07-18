@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "commitlint-config-fabulator": "^2.0.1",
-    "eslint-config-fabulator": "^1.2.2",
+    "eslint-config-fabulator": "^1.2.0",
     "semantic-release-config-fabulator": "^2.6.2"
   }
 }
