@@ -62,7 +62,7 @@ module.exports = {
                         // removeDebugger: false,
                     },
                 ],
-            ]
+            ],
         },
     },
 };
