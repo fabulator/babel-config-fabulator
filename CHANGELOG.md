@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.3.1 (2021-11-09)
+### Fixed
+- [3f00829](https://github.com/fabulator/babel-config-fabulator/commit/3f00829c0b58264315d5007448e7f73028ed5c3c) Dependencies
+
 ## v1.3.0 (2021-11-09)
 ### Other
 - [fd1cffa](https://github.com/fabulator/babel-config-fabulator/commit/fd1cffa50e7534d9c689e87c5455cbabb6e63ea2) WIP
