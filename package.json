@@ -34,6 +34,7 @@
     "@babel/preset-env": "^7.16.0",
     "@babel/preset-react": "^7.16.0",
     "@babel/preset-typescript": "^7.16.0",
+    "babel-plugin-react-anonymous-display-name": "^0.1.0",
     "babel-plugin-transform-dynamic-import": "^2.1.0",
     "babel-plugin-transform-react-class-to-function": "^1.2.2",
     "babel-plugin-typescript-to-proptypes": "^2.0.0",
