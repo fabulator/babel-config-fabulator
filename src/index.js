@@ -5,24 +5,18 @@ module.exports = {
         [
             '@babel/preset-env',
             {
+                bugfixes: true,
                 modules: false,
                 loose: true,
                 useBuiltIns: 'usage',
-                corejs: 3,
+                corejs: '3.19',
             },
         ],
     ],
     plugins: [
+        'babel-plugin-react-anonymous-display-name',
         '@babel/plugin-transform-runtime',
-        '@babel/plugin-proposal-object-rest-spread',
-        ['@babel/plugin-proposal-class-properties', { loose: true }],
-        'babel-plugin-transform-react-class-to-function',
-        [
-            '@babel/plugin-proposal-decorators',
-            {
-                decoratorsBeforeExport: true,
-            },
-        ],
+        '@babel/plugin-transform-react-constant-elements',
     ],
     env: {
         test: {
@@ -38,9 +32,6 @@ module.exports = {
                 ],
             ],
             plugins: ['babel-plugin-transform-dynamic-import'],
-        },
-        development: {
-            plugins: ['react-hot-loader/babel', 'babel-plugin-typescript-to-proptypes', '@babel/plugin-syntax-dynamic-import'],
         },
         production: {
             presets: [
@@ -71,8 +62,7 @@ module.exports = {
                         // removeDebugger: false,
                     },
                 ],
-            ],
-            plugins: ['@babel/plugin-syntax-dynamic-import'],
+            ]
         },
     },
 };
