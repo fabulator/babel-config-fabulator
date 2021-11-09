@@ -1,6 +1,20 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.3.0 (2021-11-09)
+### Other
+- [fd1cffa](https://github.com/fabulator/babel-config-fabulator/commit/fd1cffa50e7534d9c689e87c5455cbabb6e63ea2) WIP
+- [1bf1518](https://github.com/fabulator/babel-config-fabulator/commit/1bf151811690461279935fad37ab61174cb4cc1a) WIP
+- [9588fde](https://github.com/fabulator/babel-config-fabulator/commit/9588fdef637a2e78ff2f5d6dc7550dc12fddccc5) WIP
+- [4b4c5d6](https://github.com/fabulator/babel-config-fabulator/commit/4b4c5d65ea95ec4a5f0cf4b0e0c5fac8e56ad441) WIP
+- [96025e9](https://github.com/fabulator/babel-config-fabulator/commit/96025e906b058047270778c2225cd8a02a3b77c9) WIP
+- [5a14f25](https://github.com/fabulator/babel-config-fabulator/commit/5a14f2579097c8e5265d39285aed10e0d282c6cd) WIP
+- [a3c008b](https://github.com/fabulator/babel-config-fabulator/commit/a3c008b127214eaaa9272e661eb602fed82c393a) WIP
+- [d5cc6a8](https://github.com/fabulator/babel-config-fabulator/commit/d5cc6a89bccf7b6c0df3f353f75160a327b30a0f) WIP
+
+### Changed
+- [ee74030](https://github.com/fabulator/babel-config-fabulator/commit/ee74030eabb9530478ff9a11c595ad81feb8687a) Updated dependencies
+
 ## v1.2.1 (2021-07-18)
 ### Fixed
 - [17a992e](https://github.com/fabulator/babel-config-fabulator/commit/17a992e768be1ba29c51df938552aa798547615b) Update lock for security updated
