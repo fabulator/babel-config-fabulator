@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.4.1 (2021-11-17)
+### Fixed
+- [efe46d4](https://github.com/fabulator/babel-config-fabulator/commit/efe46d4423206d9dfadef1c1ac8d5dd472a1587b) Order of presets
+
 ## v1.4.0 (2021-11-17)
 ### Other
 - [7433ff4](https://github.com/fabulator/babel-config-fabulator/commit/7433ff4d4713d11298fa725a5a9e1dbb3db781df) WIP
