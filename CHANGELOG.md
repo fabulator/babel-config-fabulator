@@ -1,6 +1,13 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.4.0 (2021-11-17)
+### Other
+- [7433ff4](https://github.com/fabulator/babel-config-fabulator/commit/7433ff4d4713d11298fa725a5a9e1dbb3db781df) WIP
+
+### Changed
+- [8ed8eb7](https://github.com/fabulator/babel-config-fabulator/commit/8ed8eb7889d5f1f46ae233f6f413f54eae685c89) Optimize config
+
 ## v1.3.4 (2021-11-16)
 ### Fixed
 - [5321cd3](https://github.com/fabulator/babel-config-fabulator/commit/5321cd3686228b2dc0b02ac8db8e057a12d88347) Update lock for security updated
