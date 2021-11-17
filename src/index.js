@@ -1,7 +1,7 @@
 module.exports = {
     presets: [
         ['@babel/preset-react', { runtime: 'automatic' }],
-        '@babel/preset-typescript',
+        ['@babel/preset-typescript', { optimizeConstEnums: true }],
         [
             '@babel/preset-env',
             {
@@ -14,11 +14,17 @@ module.exports = {
         ],
     ],
     plugins: [
-        'babel-plugin-react-anonymous-display-name',
         '@babel/plugin-transform-runtime',
         '@babel/plugin-transform-react-constant-elements',
+        '@babel/plugin-transform-react-display-name',
     ],
     env: {
+        development: {
+            plugins: [['react-refresh/babel', { skipEnvCheck: true }]],
+        },
+        production: {
+            plugins: ['@babel/plugin-transform-react-inline-elements'],
+        },
         test: {
             presets: [
                 [
@@ -27,39 +33,7 @@ module.exports = {
                         modules: 'commonjs',
                         loose: true,
                         useBuiltIns: 'usage',
-                        corejs: 3,
-                    },
-                ],
-            ],
-            plugins: ['babel-plugin-transform-dynamic-import'],
-        },
-        production: {
-            presets: [
-                [
-                    'minify',
-                    {
-                        evaluate: false,
-                        simplify: false,
-                        // removeUndefined: false,
-                        // deadcode: false,
-                        // booleans: false,
-                        // builtIns: false,
-                        // consecutiveAdds: false,
-                        // flipComparisons: false,
-                        // guards: false,
-                        // infinity: false,
-                        // mangle: false,
-                        // memberExpressions: false,
-                        // numericLiterals: false,
-                        // propertyLiterals: false,
-                        // regexpConstructors: false,
-                        // replace: false,
-                        // simplifyComparisons: false,
-                        // typeConstructors: false,
-                        // undefinedToVoid: false,
-                        mergeVars: false,
-                        // removeConsole: false,
-                        // removeDebugger: false,
+                        corejs: '3.19',
                     },
                 ],
             ],
