@@ -1,6 +1,6 @@
 {
   "name": "babel-config-fabulator",
-  "version": "1.4.7",
+  "version": "1.4.8",
   "description": "Fabulator default babel config",
   "keywords": [
     "babel",
