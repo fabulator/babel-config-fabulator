@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.4.19 (2022-02-28)
+### Fixed
+- [253f4eb](https://github.com/fabulator/babel-config-fabulator/commit/253f4eb13f478017d61e80ef0d54c379ba908e2a) Update lock to make security bots happy.
+
 ## v1.4.18 (2022-02-27)
 ### Fixed
 - [9dbcbda](https://github.com/fabulator/babel-config-fabulator/commit/9dbcbda957add14ca2e7d64538eb596aea6a5326) Update lock to make security bots happy.
