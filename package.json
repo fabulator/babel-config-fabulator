@@ -37,6 +37,6 @@
   "devDependencies": {
     "commitlint-config-fabulator": "^5.0.0",
     "eslint-config-fabulator": "^1.2.3",
-    "semantic-release-config-fabulator": "^4.0.0"
+    "semantic-release-config-fabulator": "^5.0.0"
   }
 }
