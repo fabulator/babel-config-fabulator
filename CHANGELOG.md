@@ -1,6 +1,22 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.5.0 (2023-02-04)
+### Changed
+- [e1fd6d3](https://github.com/fabulator/babel-config-fabulator/commit/e1fd6d362ba5550972996825ff32ef3469691a26) Bump packages
+- [f88cbef](https://github.com/fabulator/babel-config-fabulator/commit/f88cbefc328fe6cce159765ba0b7c6203f8d558a) Update dev dependency semantic-release-config-fabulator to v5  (#67)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [fb726f6](https://github.com/fabulator/babel-config-fabulator/commit/fb726f674787a714bc8abae7a6a8ae7fdcd3a702) Update dev dependency semantic-release-config-fabulator to v4  (#65)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [f5a3fa7](https://github.com/fabulator/babel-config-fabulator/commit/f5a3fa728c199431689269ac3b8299988830df5f) Update dev dependency commitlint-config-fabulator to v5  (#64)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [0eefe71](https://github.com/fabulator/babel-config-fabulator/commit/0eefe712e62e5cc7fb457f7d0f93cd758a732383) Update dev dependency commitlint-config-fabulator to v3 
+- [774d43a](https://github.com/fabulator/babel-config-fabulator/commit/774d43a0c8dc2f1640929e3f1c0a65b306213586) Update actions/checkout action to v3
+- [37f2099](https://github.com/fabulator/babel-config-fabulator/commit/37f2099faf78cfccddbd33297f2ad6d5bedab569) Update actions/setup-node action to v3
+
 ## v1.4.23 (2022-03-28)
 ### Fixed
 - [55844a5](https://github.com/fabulator/babel-config-fabulator/commit/55844a55248e9335869c98604222288b72452e3c) Update lock to make security bots happy.
