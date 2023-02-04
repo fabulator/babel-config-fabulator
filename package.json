@@ -24,19 +24,19 @@
     "release": "semantic-release"
   },
   "dependencies": {
-    "@babel/core": "^7.16.0",
-    "@babel/plugin-transform-react-constant-elements": "^7.16.0",
-    "@babel/plugin-transform-react-inline-elements": "^7.16.0",
-    "@babel/plugin-transform-runtime": "^7.16.4",
-    "@babel/preset-env": "^7.16.4",
-    "@babel/preset-react": "^7.16.0",
-    "@babel/preset-typescript": "^7.16.0",
-    "core-js": "^3.19.1",
-    "react-refresh": "^0.11.0"
+    "@babel/core": "^7.20.12",
+    "@babel/plugin-transform-react-constant-elements": "^7.20.2",
+    "@babel/plugin-transform-react-inline-elements": "^7.18.6",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "core-js": "^3.27.2",
+    "react-refresh": "^0.14.0"
   },
   "devDependencies": {
     "commitlint-config-fabulator": "^5.0.0",
-    "eslint-config-fabulator": "^1.2.3",
-    "semantic-release-config-fabulator": "^5.0.0"
+    "eslint-config-fabulator": "^2.2.1",
+    "semantic-release-config-fabulator": "^5.1.1"
   }
 }
