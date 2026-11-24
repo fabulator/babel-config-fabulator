@@ -1,6 +1,20 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v3.0.0 (2026-11-24)
+### Removed
+- [665497d](https://github.com/fabulator/babel-config-fabulator/commit/665497d290bf095b52a85a2b6bd606fd0c4958e0) Legacy browser and React options, fix production builds with React 19 BREAKING (#237)
+
+- Remove @babel/plugin-transform-react-inline-elements from the production env,
+  its @babel/runtime/helpers/jsx creates elements with Symbol.for('react.element'),
+  which React 19 rejects ("Objects are not valid as a React child")
+- Remove @babel/plugin-transform-react-display-name, @babel/preset-react already includes it
+- Remove assumptions (loose mode) and the transform-typeof-symbol exclude, they affect only
+  transforms that do not run for the default (modern) targets
+- Tests use the default targets instead of IE 11
+
+Co-authored-by: Claude Opus 5.5 <noreply@anthropic.com>
+
 ## v2.0.0 (2026-11-24)
 ### Changed
 - [39a2642](https://github.com/fabulator/babel-config-fabulator/commit/39a2642b347b85573178b94f2ce5c2027fbacae7) Upgrade to Babel 8, ESLint 10 and npm trusted publishing BREAKING (#234)
