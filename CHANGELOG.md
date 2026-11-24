@@ -1,6 +1,25 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v2.0.0 (2026-11-24)
+### Changed
+- [39a2642](https://github.com/fabulator/babel-config-fabulator/commit/39a2642b347b85573178b94f2ce5c2027fbacae7) Upgrade to Babel 8, ESLint 10 and npm trusted publishing BREAKING (#234)
+
+* Changed: Upgrade to Babel 8, ESLint 10 and npm trusted publishing BREAKING
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+
+* Added: Lint pull request titles with commitlint
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+
+---------
+
+Co-authored-by: Claude Opus 5.5 <noreply@anthropic.com>
+- [91bca87](https://github.com/fabulator/babel-config-fabulator/commit/91bca873197325d41e971a6ff0b4b2a25d6974f5) Update Github Flow  dependency node to v16.20.2 (#196)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
 ## v1.5.0 (2023-02-04)
 ### Changed
 - [e1fd6d3](https://github.com/fabulator/babel-config-fabulator/commit/e1fd6d362ba5550972996825ff32ef3469691a26) Bump packages
