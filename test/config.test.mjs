@@ -9,9 +9,10 @@ const configFile = require.resolve('../src/index.js');
 const source = `
 const enum Size { Small }
 type Props = { items: string[] };
-export const List = ({ items }: Props) => <ul>{items.flat().map((item) => <li key={item}>{item}</li>)}</ul>;
+export const List = ({ items }: Props) => <ul>{items.values().map((item) => <li key={item}>{item}</li>).toArray()}</ul>;
 export const size = Size.Small;
 export class Store { #value = 1; get value() { return this.#value; } }
+export function read(resource: Disposable) { using disposable = resource; return disposable; }
 `;
 
 const transform = (envName) =>
@@ -20,12 +21,12 @@ const transform = (envName) =>
     envName,
     filename: 'component.tsx',
     babelrc: false,
-    targets: 'ie 11',
   });
 
 const jsxOutput = {
   development: /react\/jsx-dev-runtime/,
-  production: /@babel\/runtime\/helpers\/jsx/,
+  // not @babel/runtime/helpers/jsx (inline-elements), its elements are invalid in React 19
+  production: /react\/jsx-runtime/,
   test: /react\/jsx-runtime/,
 };
 
@@ -37,7 +38,7 @@ for (const [envName, jsx] of Object.entries(jsxOutput)) {
     assert.doesNotMatch(code, /enum/, 'const enums are inlined');
     assert.match(
       code,
-      /core-js\/modules\/es\.array\.flat/,
+      /core-js\/modules\/es\.iterator\.map/,
       'core-js polyfills are injected',
     );
     assert.match(
